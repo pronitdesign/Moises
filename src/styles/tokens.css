@@ -1,0 +1,34 @@
+:root {
+  /* Pulled from the footage: bone, wet sand, and the one teal the water gives us. */
+  --ink: #090908;
+  --ink-raise: #101010;
+  --bone: #f0eee6;
+  --bone-70: rgba(240, 238, 230, 0.7);
+  --bone-60: rgba(240, 238, 230, 0.6);
+  --bone-42: rgba(240, 238, 230, 0.42);
+  --bone-28: rgba(240, 238, 230, 0.28);
+  --bone-14: rgba(240, 238, 230, 0.14);
+
+  --card: rgba(18, 18, 15, 0.55);
+  --card-solid: rgba(16, 16, 14, 0.86);
+  --line: rgba(255, 255, 255, 0.12);
+  --line-soft: rgba(255, 255, 255, 0.07);
+
+  /* The only chromatic note in the interface. Used at hairline scale. */
+  --tide: #86c3bd;
+
+  --font-display: 'Archivo Narrow', 'Helvetica Neue', Arial, sans-serif;
+  --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --micro: clamp(9.5px, 0.66vw, 11px);
+  --track-micro: 0.2em;
+  --track-wide: 0.14em;
+
+  --gutter: clamp(20px, 3.2vw, 54px);
+  --gutter-y: clamp(18px, 2.4vw, 34px);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+
+  --radius: 14px;
+}
